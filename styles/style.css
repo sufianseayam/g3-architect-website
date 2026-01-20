@@ -100,7 +100,33 @@ main > section{
 #quick-list{
     font-weight: 500;
 }
-/* some facts related  styles */
+/* features section related style */
+#feature-section-title
+{
+ border-left: 5 px solid #FF900E ;
+ padding-left: 20px;
+
+}
+.features{
+    gap:100px;
+}
+.feature-card{
+     padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size:1.25rem;
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+
+}
+    /* some facts related  styles */
 .facts-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
